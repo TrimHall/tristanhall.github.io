@@ -1,15 +1,25 @@
+$primary-color: #333;
+$primary-background-color: #111111;
+$text-color-p1: #f0e15f;
+$text-color-p2: #bcb454;
+$text-color-p3: #8a8242;
+$text-color-c1: #c22a4c;
+$text-color-c2: #a02943;
+$text-color-c3: #852138;
+
 nav {
   ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: snow;
+    background-color: $primary-background-color;
   }
   li {
     list-style: none;
     padding: 0 10px;
   }
   a {
+    color: $text-color-c2;
     text-decoration: none;
     height: 200px;
     border-right: solid $primary-color 1px;

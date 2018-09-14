@@ -1,18 +1,16 @@
 @import "./partials/nav";
-$primary-color: #333;
-$primary-background-color: #eee;
+@import "./partials/custom-colors";
 
 body {
   background-color: $primary-background-color;
-  color: $primary-color;
 }
 
 h2  {
-  color: $primary-color
+  color: $text-color-p1;
+  font-family: 'Share Tech Mono', monospace;
 }
 
-.jump-to-top {
-  position: fixed;
-  bottom: 0;
-  right: 0;
+p {
+  color: $text-color-c1;
+  font-family: 'Cutive Mono', monospace;
 }

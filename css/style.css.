@@ -3,15 +3,17 @@ Error: Undefined variable: "$primary-color".
         on line 15 of scss/partials/nav.scss
         from line 1 of scss/main.scss
 
-10: h2  {
-11:   color: $primary-color
+10:   background-color: $primary-background-color;
+11:   color: $primary-color;
 12: }
 13: 
-14: .jump-to-top {
-15:   position: fixed;
-16:   bottom: 0;
-17:   right: 0;
-18: }
+14: h2  {
+15:   color: $primary-color
+16: }
+17: 
+18: .jump-to-top {
+19:   position: fixed;
+20:   bottom: 0;
 
 Backtrace:
 scss/partials/nav.scss:15
@@ -97,4 +99,4 @@ scss/main.scss:1
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$primary-color\".\A         on line 15 of scss/partials/nav.scss\A         from line 1 of scss/main.scss\A \A 10: h2  {\A 11:   color: $primary-color\A 12: }\A 13: \A 14: .jump-to-top {\A 15:   position: fixed;\A 16:   bottom: 0;\A 17:   right: 0;\A 18: }"; }
+  content: "Error: Undefined variable: \"$primary-color\".\A         on line 15 of scss/partials/nav.scss\A         from line 1 of scss/main.scss\A \A 10:   background-color: $primary-background-color;\A 11:   color: $primary-color;\A 12: }\A 13: \A 14: h2  {\A 15:   color: $primary-color\A 16: }\A 17: \A 18: .jump-to-top {\A 19:   position: fixed;\A 20:   bottom: 0;"; }

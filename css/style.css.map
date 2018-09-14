@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAUE,MAAG;EACD,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,SAAS,EAAE,IAAI;EACf,gBAAgB,EAbO,OAAO;AAehC,MAAG;EACD,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,MAAM;AAEjB,KAAE;EACA,KAAK,EAfO,OAAO;EAgBnB,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,KAAK;EACb,YAAY,EAAE,cAAwB;;ACrB1C,IAAK;EACH,gBAAgB,ECHS,OAAO;;ADMlC,EAAI;EACF,KAAK,EDNS,OAAO;ECOrB,WAAW,EAAE,4BAA4B;;AAG3C,CAAE;EACA,KAAK,EDRS,OAAO;ECSrB,WAAW,EAAE,wBAAwB",
+"sources": ["../scss/partials/nav.scss","../scss/main.scss","../scss/partials/custom-colors.scss"],
+"names": [],
+"file": "style.css"
+}

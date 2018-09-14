@@ -1,0 +1,18 @@
+@import "./partials/nav";
+$primary-color: #333;
+$primary-background-color: #eee;
+
+body {
+  background-color: $primary-background-color;
+  color: $primary-color;
+}
+
+h2  {
+  color: $primary-color
+}
+
+.jump-to-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

@@ -1,26 +1,42 @@
-nav ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: #111111; }
-nav li {
-  list-style: none;
-  padding: 0 10px; }
-nav a {
-  color: #a02943;
-  text-decoration: none;
-  height: 200px;
-  border-right: solid #333 1px; }
-
 body {
-  background-color: #111111; }
-
-h2 {
-  color: #f0e15f;
-  font-family: 'Share Tech Mono', monospace; }
-
-p {
-  color: #c22a4c;
-  font-family: 'Cutive Mono', monospace; }
+  height: 100%;
+  border-bottom: 500px;
+  background-color: #111111;
+  font-family: 'Share Tech Mono', monospace;
+  color: white; }
+  body .contact {
+    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 29vw;
+    margin-bottom: 100px;
+    margin-top: 120px;
+    font-size: 18px; }
+    body .contact a {
+      text-decoration: none;
+      color: white; }
+  body .projects {
+    display: block;
+    margin-left: 45%;
+    margin-top: 100px; }
+  body .about {
+    position: absolute;
+    top: 45vh;
+    left: 80vw;
+    transform: rotate(90deg); }
+  body .skills {
+    position: absolute;
+    top: 45vh;
+    left: 15vw;
+    transform: rotate(270deg); }
+  body p {
+    color: #8a8242;
+    font-family: 'Cutive Mono', monospace; }
+  body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -33,6 +33,10 @@ body {
     body .home .name {
       color: #f7006d;
       font-weight: bold; }
+  body .section-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px; }
   body #projects {
     display: flex;
     flex-wrap: wrap;
@@ -41,7 +45,25 @@ body {
       height: 40vh;
       width: 40%;
       margin: 10px;
-      border: 2px solid white;
-      background-color: black; }
+      background-color: rgba(0, 0, 0, 0.3); }
+      body #projects .project .thrifty-img {
+        height: 100%;
+        width: 50%;
+        overflow: scroll; }
+      body #projects .project .browser-top {
+        display: flex;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        background-color: #c6c7ca; }
+        body #projects .project .browser-top .red-dot {
+          color: #e25f5f;
+          margin-left: 3px; }
+        body #projects .project .browser-top .grey-dot {
+          color: #aaabaf;
+          margin-left: 3px; }
+        body #projects .project .browser-top .green-dot {
+          color: #20cc33;
+          margin-left: 3px; }
 
 /*# sourceMappingURL=style.css.map */

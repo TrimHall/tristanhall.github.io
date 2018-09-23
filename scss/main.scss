@@ -43,6 +43,11 @@ body {
       font-weight: bold;
     }
   }
+  .section-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+  }
   #projects {
     display: flex;
     flex-wrap: wrap;
@@ -51,8 +56,32 @@ body {
       height: 40vh;
       width: 40%;
       margin: 10px;
-      border: 2px solid white;
-      background-color: black;
+      // border: 2px solid white;
+      background-color: rgba(0, 0, 0, 0.3);
+      .thrifty-img {
+        height: 100%;
+        width: 50%;
+        overflow: scroll;
+      }
+      .browser-top {
+        display: flex;
+        align-items: center;
+        height: 10%;
+        width: 100%;
+        background-color: #c6c7ca;
+        .red-dot {
+          color: #e25f5f;
+          margin-left: 3px;
+        }
+        .grey-dot {
+          color: #aaabaf;
+          margin-left: 3px;
+        }
+        .green-dot {
+          color: #20cc33;
+          margin-left: 3px;
+        }
+      }
     }
   }
 }

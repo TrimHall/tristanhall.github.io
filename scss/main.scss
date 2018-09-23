@@ -1,20 +1,9 @@
-// $primary-color: #333;
-// $primary-background-color: #111111;
-// $text-color-p1: #f0e15f;
-// $text-color-p2: #bcb454;
-// $text-color-p3: #8a8242;
-// $text-color-c1: #c22a4c;
-// $text-color-c2: #a02943;
-// $text-color-c3: #852138;
-// @import "./partials/nav";
-
-
 body {
   background-color: #242935;
   p {
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
   }
   button {
     background-color: none;
@@ -23,14 +12,16 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px; 
+    // top: 120px;
     height:100px;
     width: 100px;
   }
   .home {
     height: 100vh;
     text-align: center;
-    top: 250px;
+    .head {
+      height: 150px;
+    }
     a {
       background-color: none;
       border: 2px solid white;
@@ -39,11 +30,29 @@ body {
       font-family: 'Raleway', sans-serif;
       font-size: 20px;
       padding: 15px;
-      margin-top: 1000px;
+      .fas {
+        margin-right: 10px;
+      }
+    }
+    a:hover {
+      border: 3px solid white;
+      font-size: 21px;
     }
     .name {
       color: #f7006d;
       font-weight: bold;
+    }
+  }
+  #projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    .project {
+      height: 40vh;
+      width: 40%;
+      margin: 10px;
+      border: 2px solid white;
+      background-color: black;
     }
   }
 }

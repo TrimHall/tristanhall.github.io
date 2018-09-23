@@ -52,9 +52,13 @@ body {
       margin: 20px;
       margin-bottom: 30px;
       background-color: #242935; }
-      body #projects .project .project-image {
+      body #projects .project .browser-body {
         height: 100%;
         width: 100%; }
+      body #projects .project .project-image {
+        height: 100%;
+        width: 100%;
+        overflow: scroll; }
       body #projects .project .thrifty-img {
         height: 100%;
         width: 50%;

@@ -1,5 +1,6 @@
 body {
-  background-color: #242935;
+  // background-color: #242935;
+  margin: 0;
   p {
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -17,6 +18,7 @@ body {
     width: 100px;
   }
   .home {
+    background-color: #242935;
     height: 100vh;
     text-align: center;
     .head {
@@ -43,10 +45,15 @@ body {
       font-weight: bold;
     }
   }
+  .my-work {
+    height: 100vh;
+  }
   .section-title {
-    color: white;
+    color: #f7006d;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
+    text-align: center;
+    margin-bottom: 13px;
   }
   #projects {
     display: flex;
@@ -55,9 +62,17 @@ body {
     .project {
       height: 40vh;
       width: 40%;
-      margin: 10px;
-      // border: 2px solid white;
-      background-color: rgba(0, 0, 0, 0.3);
+      margin: 20px;
+      margin-bottom: 30px;
+      background-color: #242935;
+      // .browser-body {
+      //   // margin-bottom: 15px
+      // }
+        .project-image {
+          height: 100%;
+          width: 100%;
+          // margin-bottom: 25px;
+      }
       .thrifty-img {
         height: 100%;
         width: 50%;

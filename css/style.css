@@ -36,6 +36,18 @@ body {
       font-weight: bold; }
   body .my-work {
     height: 100vh; }
+    body .my-work .section-title {
+      color: #f7006d;
+      font-family: 'Raleway', sans-serif;
+      font-size: 35px;
+      text-align: center;
+      margin: 70px 0 15px 0; }
+    body .my-work h4 {
+      color: #242935;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      font-size: 25px;
+      margin-top: -10px; }
     body .my-work .project {
       display: flex;
       justify-content: space-between; }
@@ -44,6 +56,11 @@ body {
         margin-right: 10px;
         width: 50%;
         height: 70%; }
+      body .my-work .project .project-image-iphone {
+        height: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px; }
       body .my-work .project .project-description .project-info {
         padding-right: 40px;
         margin-left: 10px;
@@ -72,11 +89,7 @@ body {
     body .my-work .tech {
       color: #242935;
       font-size: 85px; }
-  body .section-title {
-    color: #f7006d;
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
-    text-align: center;
-    margin: 50px 0; }
+    body .my-work hr {
+      margin-bottom: 80px; }
 
 /*# sourceMappingURL=style.css.map */

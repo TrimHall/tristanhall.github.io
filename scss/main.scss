@@ -47,6 +47,20 @@ body {
   }
   .my-work {
     height: 100vh;
+    .section-title {
+      color: #f7006d;
+      font-family: 'Raleway', sans-serif;
+      font-size: 35px;
+      text-align: center;
+      margin: 70px 0 15px 0;
+    }
+    h4 {
+      color: #242935;
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      font-size: 25px;
+      margin-top: -10px;
+    }
     .project {
       display: flex;
       justify-content: space-between;
@@ -55,7 +69,13 @@ body {
         margin-right: 10px;
         width: 50%;
         height: 70%;
-
+      }
+      .project-image-iphone {
+        height: 40%;
+        // width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 40px;
       }
       .project-description {
         .project-info {
@@ -94,13 +114,9 @@ body {
       color: #242935;
       font-size: 85px;
     }
-  }
-  .section-title {
-    color: #f7006d;
-    font-family: 'Raleway', sans-serif;
-    font-size: 35px;
-    text-align: center;
-    margin: 50px 0;
+    hr {
+      margin-bottom: 80px;
+    }
   }
 
 }

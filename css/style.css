@@ -6,7 +6,7 @@ body {
     font-size: 40px; }
   body button {
     background-color: none; }
-  body img {
+  body .avatar {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -36,47 +36,47 @@ body {
       font-weight: bold; }
   body .my-work {
     height: 100vh; }
+    body .my-work .project {
+      display: flex;
+      justify-content: space-between; }
+      body .my-work .project .project-image {
+        padding-left: 40px;
+        margin-right: 10px;
+        width: 50%;
+        height: 70%; }
+      body .my-work .project .project-description .project-info {
+        padding-right: 40px;
+        margin-left: 10px;
+        color: #242935;
+        font-size: 20px;
+        margin: none; }
+      body .my-work .project .project-description .links-container {
+        display: flex;
+        justify-content: space-around; }
+      body .my-work .project .project-description a {
+        background-color: none;
+        border: 2px solid #f7006d;
+        text-decoration: none;
+        color: #f7006d;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        padding: 10px; }
+        body .my-work .project .project-description a .github {
+          margin-left: 5px; }
+    body .my-work .tech-icons {
+      display: flex;
+      justify-content: center;
+      width: 75%;
+      margin: auto;
+      margin-top: 75px; }
+    body .my-work .tech {
+      color: #242935;
+      font-size: 85px; }
   body .section-title {
     color: #f7006d;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 13px; }
-  body #projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; }
-    body #projects .project {
-      height: 40vh;
-      width: 40%;
-      margin: 20px;
-      margin-bottom: 30px;
-      background-color: #242935; }
-      body #projects .project .browser-body {
-        height: 100%;
-        width: 100%; }
-      body #projects .project .project-image {
-        height: 100%;
-        width: 100%;
-        overflow: scroll; }
-      body #projects .project .thrifty-img {
-        height: 100%;
-        width: 50%;
-        overflow: scroll; }
-      body #projects .project .browser-top {
-        display: flex;
-        align-items: center;
-        height: 10%;
-        width: 100%;
-        background-color: #c6c7ca; }
-        body #projects .project .browser-top .red-dot {
-          color: #e25f5f;
-          margin-left: 3px; }
-        body #projects .project .browser-top .grey-dot {
-          color: #aaabaf;
-          margin-left: 3px; }
-        body #projects .project .browser-top .green-dot {
-          color: #20cc33;
-          margin-left: 3px; }
+    margin: 50px 0; }
 
 /*# sourceMappingURL=style.css.map */

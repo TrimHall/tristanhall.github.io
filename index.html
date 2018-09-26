@@ -6,60 +6,49 @@
   <link rel="javascript" href="./js/main.js">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-  <title>Tristan Hall - Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <title>Tristan Hall | Portfolio</title>
 </head>
 <body>
 
   <section class="home">
     <div class="head"> </div>
-    <img src="./assets/diver.png" alt="">
+    <img class="avatar" src="./assets/diver.png" alt="Tristan's Avatar">
     <p>Hi, I'm <span class="name">Tristan Hall</span>.</p>
     <p>I'm a full-stack developer.</p>
     <a href="#projects">View my work <i class="fas fa-arrow-right"></i></a>
   </section>
 
   <section class="my-work">
-    <p class="section-title">Check out my projects</p>
+    <h2 class="section-title">Projects</h2>
     <div id="projects">
 
       <div class="project">
-        <div class="browser-top">
-          </i><i class="red-dot fas fa-circle"></i></i><i class="grey-dot fas fa-circle"></i></i><i class="green-dot fas fa-circle"></i>
-        </div>
-        <div class="browser-body">
-          <img src="./assets/grit.png" alt="grit screen shot" class="project-image">
-        </div>
-      </div>
-
-      <div class="project">
-        <div class="browser-top">
-          </i><i class="red-dot fas fa-circle"></i></i><i class="grey-dot fas fa-circle"></i></i><i class="green-dot fas fa-circle"></i>
-        </div>
-        <div class="browser-body">
-          <div class="browser-body"><img src="./assets/thriftydesktop.png" alt="thrifty screen shot" class="project-image"></div>
+        <img class="project-image" src="./assets/grit/macbook-dashboard.png" alt="Grit dashboard in a macbook air frame">
+        <div class="project-description">
+          <p class="project-info">Grit is a full-stack web application, created to motivate users to exercise.
+            When registering on the platform, the user will join a "Tribe", based on how they work out.
+            The options available are "Gargantuans" (body-builders), "All Naturals" (keen gym goers but not so weights focussed)
+            and "Inbetweeners" (people who may not exercise so regularly). Users can create and adopt exercise programmes and track their
+            daily progress. Completing the exercises or challenges set in the program will earn the user "Grit points" which contribute
+            to their tribes overall performance. Progress is posted to a live feed and points accumulate on a data-visualisation dashboard.</p>
+            <div class="links-container">
+              <a href="https://grit-app.herokuapp.com/" target="_blank">View the app</a>
+              <a href="https://github.com/TrimHall/social-fitness-app" target="_blank">View on Github<i class="devicon-github-plain github"></i></a>
+            </div>
         </div>
       </div>
-
-      <div class="project">
-        <div class="browser-top">
-          </i><i class="red-dot fas fa-circle"></i></i><i class="grey-dot fas fa-circle"></i></i><i class="green-dot fas fa-circle"></i>
-        </div>
-        <div class="browser-body">
-          <div class="browser-body"><img src="./assets/divedown.png" alt="dive-down screen shot" class="project-image"></div>
-         </div>
-      </div>
-
-      <div class="project">
-        <div class="browser-top">
-          </i><i class="red-dot fas fa-circle"></i></i><i class="grey-dot fas fa-circle"></i></i><i class="green-dot fas fa-circle"></i>
-        </div>
-        <div class="browser-body">
-          <div class="browser-body"><img src="./assets/rockband.png" alt="rockband screen shot" class="project-image"></div>
-        </div>
+      <div class="tech-icons">
+        <i class="devicon-javascript-plain tech"><i class="devicon-react-original tech"></i>
+        </i><i class="devicon-express-original tech"></i><i class="devicon-mongodb-plain tech"></i>
+        <i class="devicon-babel-plain tech"></i><i class="devicon-html5-plain tech"></i>
+        <i class="devicon-sass-original tech"></i><i class="devicon-atom-original tech"></i>
+        <i class="devicon-nodejs-plain tech"></i><i class="devicon-git-plain tech"></i>
       </div>
 
     </div>
   </section>
+
 
 </body>
 </html>

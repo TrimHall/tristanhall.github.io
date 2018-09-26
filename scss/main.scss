@@ -9,7 +9,7 @@ body {
   button {
     background-color: none;
   }
-  img {
+  .avatar {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -47,57 +47,60 @@ body {
   }
   .my-work {
     height: 100vh;
+    .project {
+      display: flex;
+      justify-content: space-between;
+      .project-image {
+        padding-left: 40px;
+        margin-right: 10px;
+        width: 50%;
+        height: 70%;
+
+      }
+      .project-description {
+        .project-info {
+        padding-right: 40px;
+        margin-left: 10px;
+        color: #242935;
+        font-size: 20px;
+        margin: none;
+      }
+      .links-container {
+        display: flex;
+        justify-content: space-around;
+      }
+      a {
+        background-color: none;
+        border: 2px solid #f7006d;
+        text-decoration: none;
+        color: #f7006d;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+        padding: 10px;
+        .github {
+          margin-left: 5px;
+        }
+      }
+      }
+    }
+    .tech-icons {
+      display: flex;
+      justify-content: center;
+      width: 75%;
+      margin: auto;
+      margin-top: 75px;
+    }
+    .tech {
+      color: #242935;
+      font-size: 85px;
+    }
   }
   .section-title {
     color: #f7006d;
     font-family: 'Raleway', sans-serif;
     font-size: 35px;
     text-align: center;
-    margin-bottom: 13px;
+    margin: 50px 0;
   }
-  #projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    .project {
-      height: 40vh;
-      width: 40%;
-      margin: 20px;
-      margin-bottom: 30px;
-      background-color: #242935;
-      .browser-body {
-        height: 100%;
-        width: 100%;
-      }
-        .project-image {
-          height: 100%;
-          width: 100%;
-          overflow: scroll;
-      }
-      .thrifty-img {
-        height: 100%;
-        width: 50%;
-        overflow: scroll;
-      }
-      .browser-top {
-        display: flex;
-        align-items: center;
-        height: 10%;
-        width: 100%;
-        background-color: #c6c7ca;
-        .red-dot {
-          color: #e25f5f;
-          margin-left: 3px;
-        }
-        .grey-dot {
-          color: #aaabaf;
-          margin-left: 3px;
-        }
-        .green-dot {
-          color: #20cc33;
-          margin-left: 3px;
-        }
-      }
-    }
-  }
+
 }

@@ -18,6 +18,8 @@ body {
     text-align: center; }
     body .home .head {
       height: 150px; }
+    body .home .tagline {
+      margin-bottom: 50px; }
     body .home a {
       background-color: none;
       border: 2px solid white;
@@ -34,6 +36,38 @@ body {
     body .home .name {
       color: #f7006d;
       font-weight: bold; }
+  body .about .about-title {
+    color: #f7006d;
+    text-align: center;
+    margin-top: 20px; }
+  body .about .about-wrapper p {
+    color: #242935;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding: 0 40px;
+    width: 80%; }
+  body .about .about-wrapper ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 80%;
+    margin: auto; }
+    body .about .about-wrapper ul li {
+      text-align: center;
+      width: 20%;
+      font-size: 40px;
+      font-family: 'Raleway', sans-serif;
+      color: #f7006d; }
+      body .about .about-wrapper ul li .software-name {
+        display: none; }
+    body .about .about-wrapper ul li:hover .software-name {
+      justify-content: center;
+      display: flex;
+      color: #242935; }
+    body .about .about-wrapper ul li:hover .software-icon {
+      display: none; }
   body .my-work {
     height: 100vh; }
     body .my-work .section-title {
@@ -41,7 +75,7 @@ body {
       font-family: 'Raleway', sans-serif;
       font-size: 35px;
       text-align: center;
-      margin: 70px 0 15px 0; }
+      margin: 100px 0 15px 0; }
     body .my-work h4 {
       color: #242935;
       font-family: 'Raleway', sans-serif;
@@ -56,11 +90,13 @@ body {
         margin-right: 10px;
         width: 50%;
         height: 70%; }
-      body .my-work .project .project-image-iphone {
-        height: 40%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 40px; }
+      body .my-work .project .image-wrapper {
+        width: 50vw; }
+        body .my-work .project .image-wrapper .project-image-iphone {
+          height: 60vh;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 40px; }
       body .my-work .project .project-description .project-info {
         padding-right: 40px;
         margin-left: 10px;

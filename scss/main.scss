@@ -24,6 +24,9 @@ body {
     .head {
       height: 150px;
     }
+    .tagline {
+      margin-bottom: 50px;
+    }
     a {
       background-color: none;
       border: 2px solid white;
@@ -45,6 +48,53 @@ body {
       font-weight: bold;
     }
   }
+  .about{
+    .about-title {
+      color: #f7006d;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .about-wrapper {
+      // display: flex;
+      // justify-content: space-around;
+      p {
+        color: #242935;
+        text-align: center;
+        margin:auto;
+        font-size: 20px;
+        padding: 0 40px;
+        width: 80%;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        width: 80%;
+        margin: auto;
+        li {
+          text-align: center;
+          width: 20%;
+          font-size: 40px;
+          font-family: 'Raleway', sans-serif;
+          color: #f7006d;
+          .software-name {
+            display: none;
+          }
+        }
+        li:hover {
+          .software-name {
+            justify-content: center;
+            display: flex;
+            color: #242935;
+          }
+          .software-icon {
+            display: none;
+          }
+        }
+      }
+    }
+  }
   .my-work {
     height: 100vh;
     .section-title {
@@ -52,7 +102,7 @@ body {
       font-family: 'Raleway', sans-serif;
       font-size: 35px;
       text-align: center;
-      margin: 70px 0 15px 0;
+      margin: 100px 0 15px 0;
     }
     h4 {
       color: #242935;
@@ -70,37 +120,40 @@ body {
         width: 50%;
         height: 70%;
       }
-      .project-image-iphone {
-        height: 40%;
-        // width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 40px;
+      .image-wrapper {
+        width: 50vw;
+        .project-image-iphone {
+          height: 60vh;
+          // width: 50%;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 40px;
+        }
       }
       .project-description {
         .project-info {
-        padding-right: 40px;
-        margin-left: 10px;
-        color: #242935;
-        font-size: 20px;
-        margin: none;
-      }
-      .links-container {
-        display: flex;
-        justify-content: space-around;
-      }
-      a {
-        background-color: none;
-        border: 2px solid #f7006d;
-        text-decoration: none;
-        color: #f7006d;
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        padding: 10px;
-        .github {
-          margin-left: 5px;
+          padding-right: 40px;
+          margin-left: 10px;
+          color: #242935;
+          font-size: 20px;
+          margin: none;
         }
-      }
+        .links-container {
+          display: flex;
+          justify-content: space-around;
+        }
+        a {
+          background-color: none;
+          border: 2px solid #f7006d;
+          text-decoration: none;
+          color: #f7006d;
+          font-family: 'Raleway', sans-serif;
+          font-size: 15px;
+          padding: 10px;
+          .github {
+            margin-left: 5px;
+          }
+        }
       }
     }
     .tech-icons {
@@ -118,5 +171,4 @@ body {
       margin-bottom: 80px;
     }
   }
-
 }

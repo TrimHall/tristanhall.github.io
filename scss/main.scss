@@ -51,6 +51,7 @@ body {
   .about{
     .about-title {
       color: #f7006d;
+      font-family: 'Raleway', sans-serif;
       text-align: center;
       margin-top: 20px;
     }
@@ -71,7 +72,7 @@ body {
         flex-wrap: wrap;
         list-style: none;
         width: 80%;
-        margin: auto;
+        margin: 0 auto 30px auto;
         li {
           text-align: center;
           width: 20%;
@@ -152,6 +153,7 @@ body {
           padding: 10px;
           .github {
             margin-left: 5px;
+            font-size: 20px;
           }
         }
       }

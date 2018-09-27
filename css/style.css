@@ -38,6 +38,7 @@ body {
       font-weight: bold; }
   body .about .about-title {
     color: #f7006d;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 20px; }
   body .about .about-wrapper p {
@@ -53,7 +54,7 @@ body {
     flex-wrap: wrap;
     list-style: none;
     width: 80%;
-    margin: auto; }
+    margin: 0 auto 30px auto; }
     body .about .about-wrapper ul li {
       text-align: center;
       width: 20%;
@@ -115,7 +116,8 @@ body {
         font-size: 15px;
         padding: 10px; }
         body .my-work .project .project-description a .github {
-          margin-left: 5px; }
+          margin-left: 5px;
+          font-size: 20px; }
     body .my-work .tech-icons {
       display: flex;
       justify-content: center;

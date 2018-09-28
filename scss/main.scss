@@ -1,19 +1,14 @@
 body {
-  // background-color: #242935;
   margin: 0;
   p {
-    color: white;
+    color: white; // controlling title page
     font-family: 'Raleway', sans-serif;
     font-size: 40px;
-  }
-  button {
-    background-color: none;
   }
   .avatar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    // top: 120px;
     height:100px;
     width: 100px;
   }
@@ -24,12 +19,13 @@ body {
     .head {
       height: 150px;
     }
-    .tagline {
+    .i-am {
       margin-bottom: 50px;
     }
-    a {
+    a { // projects button
       background-color: none;
       border: 2px solid white;
+      border-radius: 5px;
       text-decoration: none;
       color: white;
       font-family: 'Raleway', sans-serif;
@@ -49,128 +45,197 @@ body {
     }
   }
   .about{
-    .about-title {
+    height: 100vh;
+    h2 {
       color: #f7006d;
       font-family: 'Raleway', sans-serif;
       text-align: center;
       margin-top: 20px;
     }
-    .about-wrapper {
-      // display: flex;
-      // justify-content: space-around;
-      p {
-        color: #242935;
+    p {
+      color: #242935;
+      text-align: center;
+      margin: 0 auto 30px auto;
+      font-size: 20px;
+      padding: 0 40px;
+      width: 80%;
+    }
+    ul {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style: none;
+      width: 80%;
+      margin: 0 auto 30px auto;
+      padding-inline-start: 0px;
+      li {
         text-align: center;
-        margin:auto;
-        font-size: 20px;
-        padding: 0 40px;
-        width: 80%;
-      }
-      ul {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        list-style: none;
-        width: 80%;
-        margin: 0 auto 30px auto;
-        li {
-          text-align: center;
-          width: 20%;
-          font-size: 40px;
-          font-family: 'Raleway', sans-serif;
-          color: #f7006d;
-          .software-name {
-            display: none;
-          }
+        width: 20%;
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+        color: #f7006d;
+        margin-bottom: 15px;
+        .software-name {
+          display: none;
         }
-        li:hover {
-          .software-name {
-            justify-content: center;
-            display: flex;
-            color: #242935;
-          }
-          .software-icon {
-            display: none;
-          }
+      }
+      li:hover {
+        .software-name {
+          justify-content: center;
+          display: flex;
+          color: #242935;
+        }
+        .software-icon {
+          display: none;
         }
       }
     }
   }
-  .my-work {
+  .grit {
+    background-color: #242935;
     height: 100vh;
-    .section-title {
-      color: #f7006d;
-      font-family: 'Raleway', sans-serif;
-      font-size: 35px;
-      text-align: center;
-      margin: 100px 0 15px 0;
-    }
-    h4 {
-      color: #242935;
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-      font-size: 25px;
-      margin-top: -10px;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 15vh;
     }
     .project {
+      margin-top: 30px;
       display: flex;
-      justify-content: space-between;
-      .project-image {
-        padding-left: 40px;
-        margin-right: 10px;
-        width: 50%;
-        height: 70%;
-      }
-      .image-wrapper {
-        width: 50vw;
-        .project-image-iphone {
-          height: 60vh;
-          // width: 50%;
-          margin-left: auto;
-          margin-right: auto;
-          padding-left: 40px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      .grit-image {
+        // min-width: 50%;
+        margin-left: 40px;
+        img {
+          height: 300px;
+          // width:50%;
         }
       }
-      .project-description {
-        .project-info {
-          padding-right: 40px;
-          margin-left: 10px;
-          color: #242935;
+      .description {
+        max-width: 50%;
+        margin-right: 40px;
+        p {
+          margin: 0 auto 0 auto;
           font-size: 20px;
-          margin: none;
+          font-family: 'Raleway', sans-serif;
+          margin-bottom: 30px;
         }
-        .links-container {
-          display: flex;
-          justify-content: space-around;
-        }
-        a {
+        a { // app and github buttons
           background-color: none;
           border: 2px solid #f7006d;
+          border-radius: 5px;
           text-decoration: none;
           color: #f7006d;
           font-family: 'Raleway', sans-serif;
-          font-size: 15px;
+          font-size: 20px;
           padding: 10px;
-          .github {
-            margin-left: 5px;
-            font-size: 20px;
+          margin-right: 15px;
+          .fas {
+            margin-right: 10px;
+          }
+        }
+        a:hover {
+          border: 3px solid white;
+          font-size: 21px;
+        }
+      }
+      .grit-tech {
+          width: 100%;
+        ul {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          list-style: none;
+          color: white;
+          li {
+            display: inline;
+            margin: 100px 15px;;
+            font-size: 25px;
+            .software-name {
+              display: none;
+            }
+          }
+          li:hover {
+            .software-name {
+              display: flex;
+              font-family: 'Raleway', sans-serif;
+              font-size: 8px;
+            }
+            .software-icon {
+              display: none;
+            }
           }
         }
       }
     }
-    .tech-icons {
-      display: flex;
-      justify-content: center;
-      width: 75%;
-      margin: auto;
-      margin-top: 75px;
-    }
-    .tech {
-      color: #242935;
-      font-size: 85px;
-    }
-    hr {
-      margin-bottom: 80px;
-    }
   }
+
+  // **********************************************************
+
+  // .my-work {
+  //   height: 100vh;
+  //   .section-title {
+  //     color: #f7006d;
+  //     font-family: 'Raleway', sans-serif;
+  //     font-size: 35px;
+  //     text-align: center;
+  //     margin: 100px 0 15px 0;
+  //   }
+  //   h4 {
+  //     color: #242935;
+  //     font-family: 'Raleway', sans-serif;
+  //     text-align: center;
+  //     font-size: 25px;
+  //     margin-top: -10px;
+  //   }
+  //   .project {
+  //     display: flex;
+  //     justify-content: space-between;
+  //     .project-image {
+  //       padding-left: 40px;
+  //       margin-right: 10px;
+  //       width: 50%;
+  //       height: 70%;
+  //     }
+  //     .image-wrapper {
+  //       width: 50vw;
+  //       .project-image-iphone {
+  //         height: 60vh;
+  //         // width: 50%;
+  //         margin-left: auto;
+  //         margin-right: auto;
+  //         padding-left: 40px;
+  //       }
+  //     }
+  //     .project-description {
+  //       .project-info {
+  //         padding-right: 40px;
+  //         margin-left: 10px;
+  //         color: #242935;
+  //         font-size: 20px;
+  //         margin: none;
+  //       }
+  //       .links-container {
+  //         display: flex;
+  //         justify-content: space-around;
+  //       }
+  //       a {
+  //         background-color: none;
+  //         border: 2px solid #f7006d;
+  //         text-decoration: none;
+  //         color: #f7006d;
+  //         font-family: 'Raleway', sans-serif;
+  //         font-size: 15px;
+  //         padding: 10px;
+  //         .github {
+  //           margin-left: 5px;
+  //           font-size: 20px;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+  // ****************************************************
 }

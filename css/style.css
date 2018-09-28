@@ -4,8 +4,6 @@ body {
     color: white;
     font-family: 'Raleway', sans-serif;
     font-size: 40px; }
-  body button {
-    background-color: none; }
   body .avatar {
     display: block;
     margin-left: auto;
@@ -18,11 +16,12 @@ body {
     text-align: center; }
     body .home .head {
       height: 150px; }
-    body .home .tagline {
+    body .home .i-am {
       margin-bottom: 50px; }
     body .home a {
       background-color: none;
       border: 2px solid white;
+      border-radius: 5px;
       text-decoration: none;
       color: white;
       font-family: 'Raleway', sans-serif;
@@ -36,98 +35,102 @@ body {
     body .home .name {
       color: #f7006d;
       font-weight: bold; }
-  body .about .about-title {
-    color: #f7006d;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    margin-top: 20px; }
-  body .about .about-wrapper p {
-    color: #242935;
-    text-align: center;
-    margin: auto;
-    font-size: 20px;
-    padding: 0 40px;
-    width: 80%; }
-  body .about .about-wrapper ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    list-style: none;
-    width: 80%;
-    margin: 0 auto 30px auto; }
-    body .about .about-wrapper ul li {
-      text-align: center;
-      width: 20%;
-      font-size: 40px;
-      font-family: 'Raleway', sans-serif;
-      color: #f7006d; }
-      body .about .about-wrapper ul li .software-name {
-        display: none; }
-    body .about .about-wrapper ul li:hover .software-name {
-      justify-content: center;
-      display: flex;
-      color: #242935; }
-    body .about .about-wrapper ul li:hover .software-icon {
-      display: none; }
-  body .my-work {
+  body .about {
     height: 100vh; }
-    body .my-work .section-title {
+    body .about h2 {
       color: #f7006d;
       font-family: 'Raleway', sans-serif;
-      font-size: 35px;
       text-align: center;
-      margin: 100px 0 15px 0; }
-    body .my-work h4 {
+      margin-top: 20px; }
+    body .about p {
       color: #242935;
-      font-family: 'Raleway', sans-serif;
       text-align: center;
-      font-size: 25px;
-      margin-top: -10px; }
-    body .my-work .project {
-      display: flex;
-      justify-content: space-between; }
-      body .my-work .project .project-image {
-        padding-left: 40px;
-        margin-right: 10px;
-        width: 50%;
-        height: 70%; }
-      body .my-work .project .image-wrapper {
-        width: 50vw; }
-        body .my-work .project .image-wrapper .project-image-iphone {
-          height: 60vh;
-          margin-left: auto;
-          margin-right: auto;
-          padding-left: 40px; }
-      body .my-work .project .project-description .project-info {
-        padding-right: 40px;
-        margin-left: 10px;
-        color: #242935;
-        font-size: 20px;
-        margin: none; }
-      body .my-work .project .project-description .links-container {
-        display: flex;
-        justify-content: space-around; }
-      body .my-work .project .project-description a {
-        background-color: none;
-        border: 2px solid #f7006d;
-        text-decoration: none;
-        color: #f7006d;
-        font-family: 'Raleway', sans-serif;
-        font-size: 15px;
-        padding: 10px; }
-        body .my-work .project .project-description a .github {
-          margin-left: 5px;
-          font-size: 20px; }
-    body .my-work .tech-icons {
+      margin: 0 auto 30px auto;
+      font-size: 20px;
+      padding: 0 40px;
+      width: 80%; }
+    body .about ul {
       display: flex;
       justify-content: center;
-      width: 75%;
-      margin: auto;
-      margin-top: 75px; }
-    body .my-work .tech {
-      color: #242935;
-      font-size: 85px; }
-    body .my-work hr {
-      margin-bottom: 80px; }
+      flex-wrap: wrap;
+      list-style: none;
+      width: 80%;
+      margin: 0 auto 30px auto;
+      padding-inline-start: 0px; }
+      body .about ul li {
+        text-align: center;
+        width: 20%;
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+        color: #f7006d;
+        margin-bottom: 15px; }
+        body .about ul li .software-name {
+          display: none; }
+      body .about ul li:hover .software-name {
+        justify-content: center;
+        display: flex;
+        color: #242935; }
+      body .about ul li:hover .software-icon {
+        display: none; }
+  body .grit {
+    background-color: #242935;
+    height: 100vh; }
+    body .grit img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 15vh; }
+    body .grit .project {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; }
+      body .grit .project .grit-image {
+        margin-left: 40px; }
+        body .grit .project .grit-image img {
+          height: 300px; }
+      body .grit .project .description {
+        max-width: 50%;
+        margin-right: 40px; }
+        body .grit .project .description p {
+          margin: 0 auto 0 auto;
+          font-size: 20px;
+          font-family: 'Raleway', sans-serif;
+          margin-bottom: 30px; }
+        body .grit .project .description a {
+          background-color: none;
+          border: 2px solid #f7006d;
+          border-radius: 5px;
+          text-decoration: none;
+          color: #f7006d;
+          font-family: 'Raleway', sans-serif;
+          font-size: 20px;
+          padding: 10px;
+          margin-right: 15px; }
+          body .grit .project .description a .fas {
+            margin-right: 10px; }
+        body .grit .project .description a:hover {
+          border: 3px solid white;
+          font-size: 21px; }
+      body .grit .project .grit-tech {
+        width: 100%; }
+        body .grit .project .grit-tech ul {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          list-style: none;
+          color: white; }
+          body .grit .project .grit-tech ul li {
+            display: inline;
+            margin: 100px 15px;
+            font-size: 25px; }
+            body .grit .project .grit-tech ul li .software-name {
+              display: none; }
+          body .grit .project .grit-tech ul li:hover .software-name {
+            display: flex;
+            font-family: 'Raleway', sans-serif;
+            font-size: 8px; }
+          body .grit .project .grit-tech ul li:hover .software-icon {
+            display: none; }
 
 /*# sourceMappingURL=style.css.map */

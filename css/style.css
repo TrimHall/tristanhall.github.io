@@ -34,46 +34,51 @@ body {
     body .home .name {
       color: #f7006d;
       font-weight: bold; }
-  body .about h2 {
-    color: #f7006d;
-    text-align: center;
-    margin-top: 20px; }
-  body .about p {
-    color: #242935;
-    text-align: center;
-    margin: 0 auto 30px auto;
-    font-size: 20px;
-    padding: 0 40px;
-    width: 80%; }
-  body .about ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    list-style: none;
-    width: 80%;
-    margin: 0 auto 30px auto;
-    padding-inline-start: 0px; }
-    body .about ul li {
-      text-align: center;
-      width: 20%;
-      font-size: 40px;
+  body .about {
+    height: 100vh; }
+    body .about h2 {
       color: #f7006d;
-      margin-bottom: 15px; }
-      body .about ul li .software-name {
-        display: none; }
-    body .about ul li:hover .software-name {
-      justify-content: center;
+      text-align: center;
+      margin-top: 20px; }
+    body .about p {
+      color: #242935;
+      text-align: center;
+      margin: 0 auto 30px auto;
+      font-size: 20px;
+      padding: 0 40px;
+      width: 80%; }
+    body .about ul {
       display: flex;
-      color: #242935; }
-    body .about ul li:hover .software-icon {
-      display: none; }
+      justify-content: center;
+      flex-wrap: wrap;
+      list-style: none;
+      width: 80%;
+      margin: 0 auto 30px auto;
+      padding-inline-start: 0px; }
+      body .about ul li {
+        text-align: center;
+        width: 20%;
+        font-size: 40px;
+        color: #f7006d;
+        margin-bottom: 15px; }
+        body .about ul li .software-name {
+          display: none; }
+      body .about ul li:hover .software-name {
+        justify-content: center;
+        display: flex;
+        color: #242935; }
+      body .about ul li:hover .software-icon {
+        display: none; }
   body .grit {
+    height: 100vh;
     background-color: #242935; }
     body .grit img {
       display: block;
       margin-left: auto;
       margin-right: auto;
       height: 15vh; }
+    body .grit .dive-down-logo {
+      padding-top: 30px; }
     body .grit .project {
       margin-top: 30px;
       display: flex;
@@ -140,5 +145,60 @@ body {
         color: #242935;
         font-size: 80px;
         margin-bottom: 20px; }
+    body .thrifty .project2 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px; }
+      body .thrifty .project2 .thrifty-image {
+        max-width: 40vw;
+        margin-left: 40px;
+        display: flex; }
+        body .thrifty .project2 .thrifty-image img {
+          height: 400px; }
+      body .thrifty .project2 .description {
+        max-width: 60vw;
+        margin: 0 40px; }
+        body .thrifty .project2 .description p {
+          margin: 0 auto 0 auto;
+          font-size: 20px;
+          font-family: 'Raleway', sans-serif;
+          margin-bottom: 120px;
+          color: #242935; }
+        body .thrifty .project2 .description a {
+          background-color: none;
+          border: 2px solid #242935;
+          border-radius: 5px;
+          text-decoration: none;
+          color: #242935;
+          font-family: 'Raleway', sans-serif;
+          font-size: 20px;
+          padding: 10px;
+          margin-right: 15px; }
+          body .thrifty .project2 .description a .fas {
+            margin-right: 10px; }
+        body .thrifty .project2 .description a:hover {
+          color: #f7006d;
+          border: 3px solid #f7006d;
+          font-size: 21px; }
+    body .thrifty .thrifty-tech {
+      width: 100%; }
+      body .thrifty .thrifty-tech ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        list-style: none;
+        color: #f7006d;
+        padding-inline-start: 0; }
+        body .thrifty .thrifty-tech ul li {
+          display: inline;
+          margin: 100px 15px;
+          font-size: 25px; }
+          body .thrifty .thrifty-tech ul li .software-name {
+            display: none; }
+        body .thrifty .thrifty-tech ul li:hover .software-name {
+          display: flex;
+          font-size: 8px; }
+        body .thrifty .thrifty-tech ul li:hover .software-icon {
+          display: none; }
 
 /*# sourceMappingURL=style.css.map */

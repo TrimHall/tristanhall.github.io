@@ -8,14 +8,13 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100px;
-    width: 100px !important; }
+    padding-top: 150px;
+    height: 110px;
+    width: 110px; }
   body .home {
     background-color: #242935;
     height: 100vh;
     text-align: center; }
-    body .home .head {
-      height: 150px; }
     body .home .i-am {
       margin-bottom: 50px; }
     body .home a {
@@ -27,7 +26,7 @@ body {
       font-size: 20px;
       padding: 15px; }
       body .home a .fas {
-        margin-right: 10px; }
+        padding-left: 10px; }
     body .home a:hover {
       border: 3px solid #ececec;
       font-size: 21px; }
@@ -77,69 +76,65 @@ body {
     margin-block-end: 0;
     text-align: center;
     padding: 30px; }
-  body .grit {
+  body .desktop {
     background-color: #242935; }
-    body .grit img {
+    body .desktop img {
       display: block;
       margin-left: auto;
       margin-right: auto;
       height: 15vh; }
-    body .grit .dive-down-logo {
-      padding-top: 30px; }
-    body .grit .project {
+    body .desktop .project {
       padding-top: 30px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap; }
-      body .grit .project .grit-image {
+      body .desktop .project .desktop-image {
         max-width: 40%;
         margin-left: 40px; }
-        body .grit .project .grit-image img {
+        body .desktop .project .desktop-image img {
           height: 250px; }
-      body .grit .project .description {
+      body .desktop .project .description {
         max-width: 50vw;
         margin-right: 40px; }
-        body .grit .project .description p {
+        body .desktop .project .description p {
           margin: 0 auto 0 auto;
           font-size: 20px;
-          font-family: 'Raleway', sans-serif;
           margin-bottom: 30px; }
-        body .grit .project .description a {
+        body .desktop .project .description a {
           background-color: none;
           border: 2px solid #f7006d;
           border-radius: 5px;
           text-decoration: none;
           color: #f7006d;
-          font-family: 'Raleway', sans-serif;
           font-size: 20px;
           padding: 10px;
           margin-right: 15px; }
-          body .grit .project .description a .gitlink {
+          body .desktop .project .description a .gitlink {
             padding-left: 10px; }
-          body .grit .project .description a .fas {
+          body .desktop .project .description a .fas {
             margin-right: 10px; }
-        body .grit .project .description a:hover {
+        body .desktop .project .description a:hover {
           border: 3px solid #ececec;
           font-size: 21px; }
-      body .grit .project .grit-tech {
+      body .desktop .project .desktop-tech {
         width: 100%; }
-        body .grit .project .grit-tech ul {
+        body .desktop .project .desktop-tech ul {
           display: flex;
           justify-content: center;
           width: 100%;
           list-style: none;
           color: #ececec;
           padding-inline-start: 0; }
-          body .grit .project .grit-tech ul li {
+          body .desktop .project .desktop-tech ul li {
             display: inline;
             margin: 100px 15px;
             font-size: 25px; }
-            body .grit .project .grit-tech ul li .software-name {
+            body .desktop .project .desktop-tech ul li .software-name {
               display: none; }
-          body .grit .project .grit-tech ul li:hover .software-name {
+          body .desktop .project .desktop-tech ul li:hover .software-name {
             display: flex;
             font-size: 8px; }
-          body .grit .project .grit-tech ul li:hover .software-icon {
+          body .desktop .project .desktop-tech ul li:hover .software-icon {
             display: none; }
   body .thrifty {
     background-color: #242935; }
@@ -151,7 +146,6 @@ body {
         height: 10vh; }
       body .thrifty .title h2 {
         display: inline;
-        font-family: 'Rubik', sans-serif;
         color: #f7006d;
         font-size: 80px;
         margin-bottom: 20px; }
@@ -171,7 +165,6 @@ body {
         body .thrifty .project2 .description p {
           margin: 0 auto 0 auto;
           font-size: 20px;
-          font-family: 'Raleway', sans-serif;
           margin-bottom: 30px; }
         body .thrifty .project2 .description a {
           background-color: none;
@@ -179,7 +172,6 @@ body {
           border-radius: 5px;
           text-decoration: none;
           color: #f7006d;
-          font-family: 'Raleway', sans-serif;
           font-size: 20px;
           padding: 10px;
           margin-right: 15px; }
@@ -245,5 +237,22 @@ body {
     body footer .copywrite p {
       font-size: 15px;
       padding-top: 40px; }
+  @media screen and (max-device-width: 420px) {
+    body .home {
+      padding-top: 350px; }
+      body .home .avatar {
+        height: 200px;
+        width: 200px; }
+      body .home p {
+        font-size: 70px; }
+      body .home .i-am {
+        margin-bottom: 140px; }
+      body .home a {
+        font-size: 50px;
+        border: 4px solid white; }
+    body .about {
+      padding-bottom: 50px; }
+      body .about p {
+        font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */

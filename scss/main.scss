@@ -300,37 +300,51 @@ body {
     }
     .copywrite {
       p {
-        font-size: 15px;
+        color: #ececec;
+        font-size: 22px;
         padding-top: 40px;
       }
     }
   }
 
-  @media screen and (max-device-width: 420px) {
-    .home {
-      padding-top: 350px;
-      .avatar {
-        height: 200px;
-        width: 200px;
-      }
-      p {
-        font-size: 70px;
-      }
-      .i-am {
-        margin-bottom: 140px;
-      }
-      a {
-        font-size: 50px;
-        border: 4px solid white;
-      }
-    }
-    .about {
-      // height: 100vh;
-      padding-bottom: 50px;
-      p{
-        font-size: 16px;
-      }
-    }
-  }
+  // @media screen and (max-device-width: 420px) {
+  //   .home {
+  //     padding-top: 350px;
+  //     .avatar {
+  //       height: 200px;
+  //       width: 200px;
+  //     }
+  //     p {
+  //       font-size: 70px;
+  //     }
+  //     .i-am {
+  //       margin-bottom: 140px;
+  //     }
+  //     a {
+  //       font-size: 50px;
+  //       border: 4px solid white;
+  //     }
+  //   }
+  //   .about {
+  //     padding-bottom: 50px;
+  //     p{
+  //       font-size: 16px;
+  //     }
+  //   }
+  //   footer {
+  //     height: 20vh;
+  //     p {
+  //       font-size: 30px;
+  //       padding-top: 60px;
+  //     }
+  //     .contact {
+  //       a {
+  //         i {
+  //           font-size: 60px;
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
 
 }

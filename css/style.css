@@ -235,24 +235,8 @@ body {
         body footer .contact a i {
           margin: 45px 15px 0 15px; }
     body footer .copywrite p {
-      font-size: 15px;
+      color: #ececec;
+      font-size: 22px;
       padding-top: 40px; }
-  @media screen and (max-device-width: 420px) {
-    body .home {
-      padding-top: 350px; }
-      body .home .avatar {
-        height: 200px;
-        width: 200px; }
-      body .home p {
-        font-size: 70px; }
-      body .home .i-am {
-        margin-bottom: 140px; }
-      body .home a {
-        font-size: 50px;
-        border: 4px solid white; }
-    body .about {
-      padding-bottom: 50px; }
-      body .about p {
-        font-size: 16px; } }
 
 /*# sourceMappingURL=style.css.map */

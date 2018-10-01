@@ -35,11 +35,12 @@ body {
       color: #f7006d;
       font-weight: bold; }
   body .about {
-    height: 100vh; }
+    background-color: #ececec;
+    padding: 30px 0; }
     body .about h2 {
       color: #f7006d;
       text-align: center;
-      margin-top: 20px; }
+      margin-block-start: 0; }
     body .about p {
       color: #242935;
       text-align: center;
@@ -53,7 +54,7 @@ body {
       flex-wrap: wrap;
       list-style: none;
       width: 80%;
-      margin: 0 auto 30px auto;
+      margin: 0 auto 0px auto;
       padding-inline-start: 0px; }
       body .about ul li {
         text-align: center;
@@ -69,8 +70,14 @@ body {
         color: #242935; }
       body .about ul li:hover .software-icon {
         display: none; }
+  body .projects-title {
+    background-color: #242935;
+    color: #f7006d;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    text-align: center;
+    padding: 30px; }
   body .grit {
-    height: 100vh;
     background-color: #242935; }
     body .grit img {
       display: block;
@@ -80,7 +87,7 @@ body {
     body .grit .dive-down-logo {
       padding-top: 30px; }
     body .grit .project {
-      margin-top: 30px;
+      padding-top: 30px;
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap; }
@@ -132,7 +139,7 @@ body {
           body .grit .project .grit-tech ul li:hover .software-icon {
             display: none; }
   body .thrifty {
-    height: 100vh; }
+    background-color: #242935; }
     body .thrifty .title {
       display: flex;
       justify-content: center;
@@ -142,13 +149,13 @@ body {
       body .thrifty .title h2 {
         display: inline;
         font-family: 'Rubik', sans-serif;
-        color: #242935;
+        color: #f7006d;
         font-size: 80px;
         margin-bottom: 20px; }
     body .thrifty .project2 {
       display: flex;
       justify-content: space-around;
-      margin-top: 30px; }
+      padding-top: 30px; }
       body .thrifty .project2 .thrifty-image {
         max-width: 40vw;
         margin-left: 40px;
@@ -156,20 +163,19 @@ body {
         body .thrifty .project2 .thrifty-image img {
           height: 400px; }
       body .thrifty .project2 .description {
-        max-width: 60vw;
+        max-width: 50vw;
         margin: 0 40px; }
         body .thrifty .project2 .description p {
           margin: 0 auto 0 auto;
           font-size: 20px;
           font-family: 'Raleway', sans-serif;
-          margin-bottom: 120px;
-          color: #242935; }
+          margin-bottom: 120px; }
         body .thrifty .project2 .description a {
           background-color: none;
-          border: 2px solid #242935;
+          border: 2px solid #f7006d;
           border-radius: 5px;
           text-decoration: none;
-          color: #242935;
+          color: #f7006d;
           font-family: 'Raleway', sans-serif;
           font-size: 20px;
           padding: 10px;
@@ -178,7 +184,7 @@ body {
             margin-right: 10px; }
         body .thrifty .project2 .description a:hover {
           color: #f7006d;
-          border: 3px solid #f7006d;
+          border: 3px solid white;
           font-size: 21px; }
     body .thrifty .thrifty-tech {
       width: 100%; }
@@ -187,8 +193,10 @@ body {
         justify-content: center;
         width: 100%;
         list-style: none;
-        color: #f7006d;
-        padding-inline-start: 0; }
+        color: white;
+        padding-inline-start: 0;
+        margin-block-start: 0;
+        margin-block-end: 0; }
         body .thrifty .thrifty-tech ul li {
           display: inline;
           margin: 100px 15px;
@@ -200,5 +208,30 @@ body {
           font-size: 8px; }
         body .thrifty .thrifty-tech ul li:hover .software-icon {
           display: none; }
+  body .timeline {
+    background-color: #ececec;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    height: 70vh;
+    color: #f7006d;
+    text-align: center;
+    padding: 30px; }
+  body footer {
+    background-color: #242935;
+    color: white;
+    height: 30vh; }
+    body footer p {
+      margin-block-start: 0;
+      margin-block-end: 0;
+      text-align: center;
+      font-size: 25px; }
+    body footer .contact {
+      display: flex;
+      justify-content: center; }
+      body footer .contact a {
+        font-size: 45px;
+        color: #f7006d; }
+        body footer .contact a i {
+          margin: 45px 15px 0 15px; }
 
 /*# sourceMappingURL=style.css.map */

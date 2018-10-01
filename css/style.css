@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Raleway', sans-serif; }
   body p {
-    color: white;
+    color: #ececec;
     font-size: 40px; }
   body .avatar {
     display: block;
@@ -20,16 +20,16 @@ body {
       margin-bottom: 50px; }
     body .home a {
       background-color: none;
-      border: 2px solid white;
+      border: 2px solid #ececec;
       border-radius: 5px;
       text-decoration: none;
-      color: white;
+      color: #ececec;
       font-size: 20px;
       padding: 15px; }
       body .home a .fas {
         margin-right: 10px; }
     body .home a:hover {
-      border: 3px solid white;
+      border: 3px solid #ececec;
       font-size: 21px; }
     body .home .name {
       color: #f7006d;
@@ -92,9 +92,10 @@ body {
       justify-content: space-around;
       flex-wrap: wrap; }
       body .grit .project .grit-image {
+        max-width: 40%;
         margin-left: 40px; }
         body .grit .project .grit-image img {
-          height: 300px; }
+          height: 250px; }
       body .grit .project .description {
         max-width: 50vw;
         margin-right: 40px; }
@@ -113,10 +114,12 @@ body {
           font-size: 20px;
           padding: 10px;
           margin-right: 15px; }
+          body .grit .project .description a .gitlink {
+            padding-left: 10px; }
           body .grit .project .description a .fas {
             margin-right: 10px; }
         body .grit .project .description a:hover {
-          border: 3px solid white;
+          border: 3px solid #ececec;
           font-size: 21px; }
       body .grit .project .grit-tech {
         width: 100%; }
@@ -125,7 +128,7 @@ body {
           justify-content: center;
           width: 100%;
           list-style: none;
-          color: white;
+          color: #ececec;
           padding-inline-start: 0; }
           body .grit .project .grit-tech ul li {
             display: inline;
@@ -169,7 +172,7 @@ body {
           margin: 0 auto 0 auto;
           font-size: 20px;
           font-family: 'Raleway', sans-serif;
-          margin-bottom: 120px; }
+          margin-bottom: 30px; }
         body .thrifty .project2 .description a {
           background-color: none;
           border: 2px solid #f7006d;
@@ -180,11 +183,13 @@ body {
           font-size: 20px;
           padding: 10px;
           margin-right: 15px; }
+          body .thrifty .project2 .description a .gitlink {
+            padding-left: 10px; }
           body .thrifty .project2 .description a .fas {
             margin-right: 10px; }
         body .thrifty .project2 .description a:hover {
           color: #f7006d;
-          border: 3px solid white;
+          border: 3px solid #ececec;
           font-size: 21px; }
     body .thrifty .thrifty-tech {
       width: 100%; }
@@ -193,7 +198,7 @@ body {
         justify-content: center;
         width: 100%;
         list-style: none;
-        color: white;
+        color: #ececec;
         padding-inline-start: 0;
         margin-block-start: 0;
         margin-block-end: 0; }
@@ -218,13 +223,17 @@ body {
     padding: 30px; }
   body footer {
     background-color: #242935;
-    color: white;
-    height: 30vh; }
+    color: #ececec;
+    height: 30vh;
+    display: flex;
+    flex-direction: column; }
     body footer p {
       margin-block-start: 0;
       margin-block-end: 0;
       text-align: center;
-      font-size: 25px; }
+      font-size: 25px;
+      align-items: center;
+      padding-top: 20px; }
     body footer .contact {
       display: flex;
       justify-content: center; }
@@ -233,5 +242,8 @@ body {
         color: #f7006d; }
         body footer .contact a i {
           margin: 45px 15px 0 15px; }
+    body footer .copywrite p {
+      font-size: 15px;
+      padding-top: 40px; }
 
 /*# sourceMappingURL=style.css.map */

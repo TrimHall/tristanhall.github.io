@@ -6,11 +6,11 @@ Error: Undefined variable: "$primary-color".
 10:   background-color: $primary-background-color;
 11:   color: $primary-color;
 12: }
-13: 
+13:
 14: h2  {
 15:   color: $primary-color
 16: }
-17: 
+17:
 18: .jump-to-top {
 19:   position: fixed;
 20:   bottom: 0;

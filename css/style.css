@@ -18,7 +18,13 @@ body {
     background-color: #242935;
     height: 100vh;
     text-align: center; }
+    body .home p {
+      padding-top: 30px; }
+      body .home p .name {
+        color: #f7006d;
+        font-weight: bold; }
     body .home .i-am {
+      padding-top: 30px;
       margin-bottom: 50px; }
     body .home a {
       background-color: none;
@@ -33,9 +39,6 @@ body {
     body .home a:hover {
       border: 3px solid #ececec;
       font-size: 21px; }
-    body .home .name {
-      color: #f7006d;
-      font-weight: bold; }
   body .about {
     background-color: #ececec;
     padding: 30px 0; }

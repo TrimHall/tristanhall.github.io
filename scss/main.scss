@@ -21,7 +21,15 @@ body {
     background-color: #242935;
     height: 100vh;
     text-align: center;
+    p {
+      padding-top: 30px;
+      .name {
+        color: #f7006d;
+        font-weight: bold;
+      }
+    }
     .i-am {
+      padding-top: 30px;
       margin-bottom: 50px;
     }
     a { // projects button
@@ -39,10 +47,6 @@ body {
     a:hover {
       border: 3px solid #ececec;
       font-size: 21px;
-    }
-    .name {
-      color: #f7006d;
-      font-weight: bold;
     }
   }
   .about{

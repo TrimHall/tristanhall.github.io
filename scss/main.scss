@@ -46,8 +46,10 @@ body {
     padding: 30px 0 ;
     h2 {
       color: #f7006d;
+      font-size: 30px;
       text-align: center;
-      margin-block-start: 0;
+      padding-bottom: 30px;
+      // margin-block-start: 0;
     }
     p {
       color: #242935;
@@ -64,7 +66,7 @@ body {
       list-style: none;
       width: 80%;
       margin: 0 auto 0px auto;
-      padding-inline-start: 0px;
+      // padding-inline-start: 0px;
       li {
         text-align: center;
         width: 20%;
@@ -90,36 +92,38 @@ body {
   .projects-title {
     background-color: #242935;
     color: #f7006d;
-    margin-block-start: 0;
-    margin-block-end: 0;
+    font-size: 30px;
     text-align: center;
     padding: 30px;
   }
-  .desktop {
+  .project-section {
     background-color: #242935;
     img {
       display: block;
       margin-left: auto;
       margin-right: auto;
-      height: 15vh;
+      height: 10vh;
     }
     .project {
       padding-top: 30px;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       flex-wrap: wrap;
       .desktop-image {
-        max-width: 40%;
-        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        min-width: 40%;
+        padding-left: 40px;
         img {
           height: 250px;
         }
       }
       .description {
-        max-width: 50vw;
-        margin-right: 40px;
+        max-width: 50%;
+        padding-left: 40px;
+        padding-right: 40px;
         p {
-          margin: 0 auto 0 auto;
+          // margin: 0 auto 0 auto;
           font-size: 20px;
           margin-bottom: 30px;
         }
@@ -152,7 +156,7 @@ body {
           width: 100%;
           list-style: none;
           color: #ececec;
-          padding-inline-start: 0;
+          // padding-inline-start: 0;
           li {
             display: inline;
             margin: 100px 15px;;
@@ -174,104 +178,16 @@ body {
       }
     }
   }
-  .thrifty {
-    background-color: #242935;
-    .title {
-      display: flex;
-      justify-content: center;
-      margin-top: 30px;
-      img {
-        height: 10vh;
-      }
-      h2 {
-        display: inline;
-        color: #f7006d;
-        font-size: 80px;
-        margin-bottom: 20px;
-      }
-    }
-    .project2 {
-      display: flex;
-      justify-content: space-around;
-      padding-top: 30px;
-      .thrifty-image {
-        max-width: 40vw;
-        margin-left: 40px;
-        display: flex;
-        img {
-          height: 400px;
-        }
-      }
-      .description {
-        max-width: 50vw;
-        margin: 0 40px;
-        p {
-          margin: 0 auto 0 auto;
-          font-size: 20px;
-          margin-bottom: 30px;
-        }
-        a { // app and github buttons
-          background-color: none;
-          border: 2px solid #f7006d;
-          border-radius: 5px;
-          text-decoration: none;
-          color: #f7006d;
-          font-size: 20px;
-          padding: 10px;
-          margin-right: 15px;
-          .gitlink {
-            padding-left: 10px;
-          }
-          .fas {
-            margin-right: 10px;
-          }
-        }
-        a:hover {
-          color: #f7006d;
-          border: 3px solid #ececec;
-          font-size: 21px;
-        }
-      }
-    }
-    .thrifty-tech {
-      width: 100%;
-      ul {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        list-style: none;
-        color: #ececec;
-        padding-inline-start: 0;
-        margin-block-start: 0;
-        margin-block-end: 0;
-        li {
-          display: inline;
-          margin: 100px 15px;;
-          font-size: 25px;
-          .software-name {
-            display: none;
-          }
-        }
-        li:hover {
-          .software-name {
-            display: flex;
-            font-size: 8px;
-          }
-          .software-icon {
-            display: none;
-          }
-        }
-      }
-    }
-  }
   .timeline {
     background-color: #ececec;
-    margin-block-start: 0;
-    margin-block-end: 0;
     height: 70vh;
-    color: #f7006d;
     text-align: center;
-    padding: 30px;
+    h2 {
+      color: #f7006d;
+      padding: 30px;
+      // margin-block-start: 0;
+      // margin-block-end: 0;
+    }
   }
   footer {
     background-color: #242935;
@@ -280,8 +196,8 @@ body {
     display: flex;
     flex-direction: column;
     p {
-      margin-block-start: 0;
-      margin-block-end: 0;
+      // margin-block-start: 0;
+      // margin-block-end: 0;
       text-align: center;
       font-size: 25px;
       align-items: center;

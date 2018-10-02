@@ -100,7 +100,8 @@ body {
         padding-right: 40px; }
         body .project-section .project .description p {
           font-size: 20px;
-          margin-bottom: 30px; }
+          margin-bottom: 30px;
+          padding-right: 40px; }
         body .project-section .project .description a {
           background-color: none;
           border: 2px solid #f7006d;

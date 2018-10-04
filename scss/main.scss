@@ -3,8 +3,23 @@
   margin: none;
 }
 body {
-  // margin: 0;
   font-family: 'Raleway', sans-serif;
+  .navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #242935;
+    padding: 10px 0 15px 0;
+    a:first-child {
+      margin-left: 40px;
+    }
+    a {
+      text-decoration: none;
+      color: #ececec;
+      font-size: 18px;
+      margin: 20px;
+    }
+  }
   p {
     color: #ececec; // controlling title page
     font-size: 40px;
@@ -64,7 +79,7 @@ body {
       color: #242935;
       text-align: center;
       margin: 0 auto 30px auto;
-      font-size: 20px;
+      font-size: 18px;
       padding: 0 40px;
       width: 80%;
     }
@@ -104,7 +119,7 @@ body {
       color: #f7006d;
       font-size: 30px;
       text-align: center;
-      padding: 30px;
+      padding: 40px 30px 30px 30px;
     }
     .project-section {
       img {
@@ -128,11 +143,12 @@ body {
           }
         }
         .description {
+          // display: none;
           max-width: 50%;
           padding-left: 40px;
           padding-right: 40px;
           p {
-            font-size: 20px;
+            font-size: 18px;
             margin-bottom: 30px;
             padding-right: 20px;
           }
@@ -208,6 +224,9 @@ body {
       font-size: 20px;
       padding: 15px 30px 30px 30px;
     }
+    .last {
+      padding-bottom: 50px;
+    }
   }
   footer {
     background-color: #242935;
@@ -215,11 +234,14 @@ body {
     height: 200px;
     display: flex;
     flex-direction: column;
-    p {
-      text-align: center;
-      font-size: 25px;
-      padding: 20px 0 10px 0;
-    }
+      .email {
+        p {
+          color: #ececec;
+          text-align: center;
+          font-size: 18px;
+          padding: 20px 0 10px 0;
+        }
+      }
     .contact {
       display: flex;
       justify-content: center;
@@ -240,10 +262,10 @@ body {
     }
   }
 
-  @media screen and (max-device-width: 420px) {
+  @media screen and (max-device-width: 1201px) {
     .home {
       p {
-          font-size: 70px;
+        font-size: 70px;
       }
       padding-top: 350px;
       .avatar {
@@ -264,31 +286,46 @@ body {
         font-size: 50px;
       }
       p{
-        font-size: 45px;
+        font-size: 40px;
       }
     }
     .projects-wrapper {
-      .projects-title {
-        font-size: 50px;
-      }
-      .desktop-image {
-        width: 100%;
-      }
-    }
-    footer {
-      height: 20vh;
-      p {
-        font-size: 30px;
-        padding-top: 60px;
-      }
-      .contact {
-        a {
-          i {
-            font-size: 60px;
+      .project-section {
+        .project {
+          .desktop-image {
+            padding-left: 0px !important;
+            padding-bottom: 30px;
+            margin: 0 auto;
+          }
+          .description {
+            min-width: 90%;
+            a {
+              display: block;
+              text-align: center;
+              margin: 0 300px 10px 300px;
+            }
+            .project-info {
+              width: 100%;
+              text-align: center;
+              font-size: 40px;
+            }
+          }
+          footer {
+            height: 20vh;
+            p {
+              font-size: 30px;
+              padding-top: 60px;
+            }
+            .contact {
+              a {
+                i {
+                  font-size: 60px;
+                }
+              }
+            }
           }
         }
       }
     }
   }
-
 }

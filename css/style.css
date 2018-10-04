@@ -223,6 +223,7 @@ body {
       body .projects-wrapper .project-section .project .description a {
         display: block;
         text-align: center;
+        font-size: 30px;
         margin: 0 300px 10px 300px; }
       body .projects-wrapper .project-section .project .description .project-info {
         width: 100%;

@@ -164,7 +164,6 @@ body {
       padding: 30px; }
     body .timeline h3 {
       font-size: 23px;
-      font-weight: bold;
       color: #f7006d; }
     body .timeline p {
       color: #242935;
@@ -235,6 +234,8 @@ body {
         font-size: 30px;
         padding-top: 60px; }
       body .projects-wrapper .project-section .project footer .contact a i {
-        font-size: 60px; } }
+        font-size: 60px; }
+    body .timeline h2 {
+      font-size: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
